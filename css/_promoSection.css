@@ -1,0 +1,56 @@
+.promo {
+	height: 100%;
+	background: url('../img/bg/banner.png') center/cover no-repeat;
+	background-color: hsl(348.68deg 100% 44.71%);
+	filter: grayscale(30%);
+}
+
+.promo__container {
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.promo__content {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.promo__title {
+	font-weight: 600;
+	font-size: 3.8rem;
+	color: #fff;
+}
+
+.promo__description {
+	font-size: 1.9rem;
+	color: #fff;
+	font-weight: 600;
+	line-height: 3rem;
+}
+
+.promo__button-cnt {
+	display: flex;
+	gap: 2rem;
+}
+
+.promo__btn {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: .5rem;
+	border: .2rem #fff solid;
+	border-radius: 1rem;
+	transition: all .3s;
+}
+
+.promo__btn:hover {
+	transform: scale(.95);
+}
+
+.promo__btn div {
+	font-size: 1.4rem;
+	color: #fff;
+}
