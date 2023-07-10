@@ -1,9 +1,9 @@
 /* сброс дефолтных стилей браузера  */
-@import url('./_reset.css');
+@import url('./reset.css');
 
 /* базовые стили сайта  */
-@import url('./_baseStyle.css');
+@import url('./baseStyle.css');
 
 /* стили отдельных блоков */
-@import url('./_header.css');
-@import url('./_promoSection.css');
+@import url('./header.css');
+@import url('./promoSection.css');
