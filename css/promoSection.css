@@ -5,11 +5,54 @@
 	filter: grayscale(30%);
 }
 
+.mobile-bg {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.mobile-bg {
+		display: block;
+		max-width: 100%;
+		/* filter: grayscale(30%); */
+
+	}
+
+	.promo {
+		background: hsl(348.68deg 100% 44.71%);
+	}
+
+	.promo__container {
+		height: 100%;
+	}
+
+
+}
+
+
 .promo__container {
 	height: 70%;
 	display: flex;
 	align-items: center;
 	justify-content: end;
+}
+
+@media (max-width: 767px) {
+	.mobile-bg {
+		display: block;
+		max-width: 100%;
+		/* filter: grayscale(30%); */
+
+	}
+
+	.promo {
+		background: hsl(348.68deg 100% 44.71%);
+	}
+
+	.promo__container {
+		height: 100%;
+	}
+
+
 }
 
 .promo__content {
