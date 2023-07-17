@@ -2,7 +2,6 @@
 	height: 100%;
 	background: url('../img/banner.png') center/cover no-repeat;
 	background-color: hsl(348.68deg 100% 44.71%);
-	filter: grayscale(30%);
 }
 
 .mobile-bg {
@@ -13,12 +12,11 @@
 	.mobile-bg {
 		display: block;
 		max-width: 100%;
-		/* filter: grayscale(30%); */
 
 	}
 
 	.promo {
-		background: hsl(348.68deg 100% 44.71%);
+		background: #e4002b;
 	}
 
 	.promo__container {
@@ -82,7 +80,7 @@
 
 
 .promo__description {
-	font-size: 1.9rem;
+	font-size: 1.7rem;
 	color: #fff;
 	font-weight: 600;
 	line-height: 3rem;
@@ -105,21 +103,12 @@
 	display: flex;
 	align-items: center;
 	gap: 1rem;
-	padding: .5rem 1rem;
-	border: .2rem #fff solid;
+	border: none;
 	border-radius: 1rem;
 	transition: all .3s;
 }
 
-.promo__btn b {
-	font-weight: 600;
-}
 
 .promo__btn:hover {
 	transform: scale(.95);
-}
-
-.promo__btn div {
-	font-size: 1.4rem;
-	color: #fff;
 }
